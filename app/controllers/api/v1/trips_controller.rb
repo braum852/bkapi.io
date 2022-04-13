@@ -16,6 +16,7 @@ class Api::V1::TripsController < ApplicationController
   # POST /trips
   def create
     @trip = Trip.new(trip_params)
+    # @trip.user = User.find_or_create_by(user_params)
 
     if @trip.save
       render json: @trip, status: :created, location: @trip
