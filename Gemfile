@@ -40,3 +40,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "active_model_serializers", "~> 0.10.13"
+
+gem "pg", "~> 1.3"
+
+gem "jwt", "~> 2.3"
+
+gem "dotenv-rails", "~> 2.7"
